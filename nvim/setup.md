@@ -22,3 +22,16 @@ cd into the directory and create init file - mine is based off the file from kic
 nvim init.lua
 ```
 run nvim to install packages automatically
+```
+nvim
+```
+___
+### installing language support
+run mason
+```
+:Mason
+```
+forward slash to search for a language, enter, i to install it
+```
+/bash
+```
