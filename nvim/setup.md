@@ -1,4 +1,4 @@
-this is all on kali. first grab neovim
+### installation
 ```
 sudo apt install neovim
 ```
@@ -11,4 +11,14 @@ then move the appimage to the nvim location so the nvim keybinding works correct
 ```
 sudo mv nvim.appimage /usr/local/bin/nvim
 ```
-make a config file and create an `init.lua`. (kickstarter)
+___
+### customization
+create config file
+```
+mkdir ~/.config/nvim
+```
+cd into the directory and create init file - mine is based off the file from kickstart.nvim
+```
+nvim init.lua
+```
+run nvim to install packages automatically
