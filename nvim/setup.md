@@ -25,6 +25,7 @@ run nvim to install packages automatically
 ```
 nvim
 ```
+add other packages to the init file as needed following their docs
 ___
 ### installing language support
 run mason
