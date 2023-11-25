@@ -1,0 +1,7 @@
+open terminal -> file -> preferences
+(if it's not mentioned it was left as a default)
+- color scheme : dark pastels
+- scrollbar position : no scrollbar 
+- application transparency : 25%
+- terminal transparency : 25%
+- start with preset : 2 terminals vertically 
