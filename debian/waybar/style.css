@@ -1,0 +1,20 @@
+* {
+    border: none;
+    border-radius: 8px;
+    font-family: "Monospace";
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(168, 47, 110, 0.4);
+}
+
+#clock {
+    background: transparent;
+    font-weight: bold;
+}
+
+#network #battery {
+    background: transparent;
+    padding-right: 5px;
+}
