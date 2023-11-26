@@ -7,3 +7,5 @@ what i've done so far
 >   autohide bottom bar<br>
 - got rid of options/ task bar on terminal
 - switched up wallpaper/ lock screen
+- installed curl
+- found out it doesn't like `reboot` command (i'll map `/sbin/reboot` later)
