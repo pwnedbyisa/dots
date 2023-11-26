@@ -17,3 +17,4 @@
 - adwaita icons
 - disabled splash screen
 - accessibility - disabled bell and screen reader
+- config display settings - night color - sunrise and sunset
