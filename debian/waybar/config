@@ -10,7 +10,7 @@
     "fixed-center": true, // for center modules
 
     // modules
-    "modules-left": ["wlr/workspaces", "wlr/window"],
+    "modules-left": ["custom/applaunch", "wlr/workspaces", "wlr/window"],
     "modules-center": ["clock"],
     "modules-right": [/*"custom/media",*/ "network", "battery"],
 
@@ -19,7 +19,9 @@
         "return-type": "json",
         "format": "{icon}",
         "format-icon": "^-^",
-        "exec": "
+        "exec": ""
+    },
+
     "wlr/workspaces": {
         "persistent-workspaces": {
             "1": [],
