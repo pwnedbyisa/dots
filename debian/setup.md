@@ -20,4 +20,5 @@
 - config display settings - night color - sunrise and sunset
 #### video wallpaper
 > wallset<br>
-> installed with --force bc it wasn't detecting dependencies
+> installed with --force bc it wasn't detecting dependencies<br>
+> [this website](https://www.makeuseof.com/set-live-animated-wallpapers-on-linux/) was helpful
