@@ -10,5 +10,6 @@
 - found out it doesn't like `reboot` command (i'll map `/sbin/reboot` later)
 #### konsole changes
 >  dark pastels<br>
+>  25% transparency<br>
 >  scrollbar hidden<br>
 >  hid options/task bar<br>
