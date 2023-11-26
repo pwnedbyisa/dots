@@ -13,3 +13,7 @@
 >  25% transparency<br>
 >  scrollbar hidden<br>
 >  hid options/task bar<br>
+- global theme > colors > pink
+- adwaita icons
+- disabled splash screen
+- accessibility - disabled bell and screen reader
