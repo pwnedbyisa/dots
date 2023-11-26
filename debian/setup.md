@@ -21,5 +21,5 @@
 #### video wallpaper
 > tried wallset<br>
 > installed with --force bc it wasn't detecting dependencies<br>
-> errors out the a$$
+> errors out the a$$<br>
 > used the smart wallpaper plugin on debian instead
