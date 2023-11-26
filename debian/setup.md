@@ -18,3 +18,6 @@
 - disabled splash screen
 - accessibility - disabled bell and screen reader
 - config display settings - night color - sunrise and sunset
+#### video wallpaper
+> wallset<br>
+> installed with --force bc it wasn't detecting dependencies
