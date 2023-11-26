@@ -19,6 +19,7 @@
 - accessibility - disabled bell and screen reader
 - config display settings - night color - sunrise and sunset
 #### video wallpaper
-> wallset<br>
+> tried wallset<br>
 > installed with --force bc it wasn't detecting dependencies<br>
-> [this website](https://www.makeuseof.com/set-live-animated-wallpapers-on-linux/) was helpful
+> errors out the a$$
+> used the smart wallpaper plugin on debian instead
