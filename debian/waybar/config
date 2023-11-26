@@ -1,3 +1,6 @@
+// to do
+// add application launcher, firefox, workspaces, open windows
+
 {
     "layer": "top",
     "position": "top",
@@ -9,25 +12,30 @@
     // modules
     "modules-left": ["wlr/workspaces", "wlr/window"],
     "modules-center": ["clock"],
-    "modules-right": [/*"custom/media",*/ "pulseaudio/slider", "network", "battery"],
+    "modules-right": [/*"custom/media",*/ "network", "battery"],
 
     // config
+    "custom/applaunch": {
+        "return-type": "json",
+        "format": "{icon}",
+        "format-icon": "^-^",
+        "exec": "
     "wlr/workspaces": {
         "persistent-workspaces": {
-	      "1": [],
-	      "2": [],
-	      "3": [],
-	      "4": []
-	      },
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": []
+        },
         "disable-scroll": true, 
-	      "format": "{name}",
-	      // "format-icons": {
-	          // "1": ">_",
-	          // "2": "%",
-	          // "3": "<3",
-	          // "4": "$",
-	      // },
-	      "on-click": "activate"
+        "format": "{name}",
+        // "format-icons": {
+            // "1": ">_",
+            // "2": "%",
+            // "3": "<3",
+            // "4": "$",
+        // },
+        "on-click": "activate"
     },
 
     // "keyboard-state": {
@@ -38,15 +46,10 @@
             // "locked": "",
             // "unlocked": ""
         // },
+    
     "clock": {
         "timezone": "America/Chicago",
-	      "format": "{:%Y-%m-%d}"
-    },
-
-    "pulseaudio/slider": {
-      "min": 0,
-	    "max": 100,
-	    "orientation": "horizontal"
+        "format": "{:%a %d %b %H:%M}" // "{:%Y-%m-%d}"
     },
 
     "network": {
