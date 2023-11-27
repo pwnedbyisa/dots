@@ -32,3 +32,6 @@
 > large spacing, don't fill free space <br>
 > autohide all small icons <br>
 > remove everything other than app launcher and hidden icons, decrease width, left alignment<br>
+#### plank 
+> gruvbox plus icons<br>
+
