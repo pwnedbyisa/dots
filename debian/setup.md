@@ -34,4 +34,6 @@
 > remove everything other than app launcher and hidden icons, decrease width, left alignment<br>
 #### plank 
 > gruvbox plus icons<br>
+> other themes: <br>
+> [flight-light-icons](https://www.xfce-look.org/p/2068651) [buuf for many desktops](https://www.xfce-look.org/p/1012233) [guitar icons](https://www.xfce-look.org/p/1012396) [soft orange revised](https://www.xfce-look.org/p/1267404)
 
