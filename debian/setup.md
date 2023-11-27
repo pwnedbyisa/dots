@@ -25,3 +25,9 @@
 > used the smart wallpaper plugin instead
 - polybar config
 - sddm - uzuri-sddm
+#### panel
+> floating <br>
+> 34 height <br>
+> windows can cover <br>
+> large spacing, don't fill free space <br>
+> autohide all small icons <br>
