@@ -23,3 +23,5 @@
 > installed with --force bc it wasn't detecting dependencies<br>
 > errors out the a$$<br>
 > used the smart wallpaper plugin on debian instead
+- polybar config
+- sddm - uzuri-sddm
