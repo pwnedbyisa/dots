@@ -31,3 +31,4 @@
 > windows can cover <br>
 > large spacing, don't fill free space <br>
 > autohide all small icons <br>
+> decrease width, center alignment<br>
