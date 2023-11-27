@@ -28,7 +28,7 @@
 #### panel
 > floating <br>
 > 34 height <br>
-> windows can cover <br>
+> autohide <br>
 > large spacing, don't fill free space <br>
 > autohide all small icons <br>
-> decrease width, center alignment<br>
+> remove everything other than app launcher and hidden icons, decrease width, left alignment<br>
