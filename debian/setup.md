@@ -15,7 +15,7 @@
 >  hid options/task bar<br>
 - global theme > colors > pink
 - adwaita icons
-- disabled splash screen
+- sun splash screen
 - accessibility - disabled bell and screen reader
 - config display settings - night color - sunrise and sunset
 #### video wallpaper
