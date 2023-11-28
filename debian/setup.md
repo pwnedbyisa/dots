@@ -36,4 +36,8 @@
 > gruvbox plus icons<br>
 > other themes: <br>
 > [flight-light-icons](https://www.xfce-look.org/p/2068651) [buuf for many desktops](https://www.xfce-look.org/p/1012233) [guitar icons](https://www.xfce-look.org/p/1012396) [soft orange revised](https://www.xfce-look.org/p/1267404)
+> installing an icon pack from terminal
+> cd /usr/share/icons/
+> sudo git clone https://git.disroot.org/eudaimon/buuf-nestort.git
+> should appear in icon menu in settings
 
