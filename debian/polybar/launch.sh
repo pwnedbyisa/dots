@@ -11,5 +11,6 @@ polybar-msg cmd quit
 # Launch bar
 echo "---" | tee -a /tmp/polybar.log
 polybar mybar 2>&1 | tee -a /tmp/polybar.log & disown
+polybar bar2 2>&1 | tee -a /tmp/polybar.log & disown
 
 echo "Bars launched..."
