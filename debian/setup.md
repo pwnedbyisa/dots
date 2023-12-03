@@ -14,7 +14,6 @@
 >  scrollbar hidden<br>
 >  hid options/task bar<br>
 - global theme > colors > pink
-- adwaita icons
 - sun splash screen
 - accessibility - disabled bell and screen reader
 - config display settings - night color - sunrise and sunset
@@ -31,7 +30,7 @@
 > autohide <br>
 > large spacing, don't fill free space <br>
 > autohide all small icons <br>
-> remove everything other than app launcher and hidden icons, decrease width, left alignment<br>
+> remove everything other than app launcher and hidden icons, decrease width, right alignment<br>
 #### plank 
 > gruvbox plus icons<br>
 > other themes: <br>
@@ -40,4 +39,5 @@
 > cd /usr/share/icons/
 > sudo git clone https://git.disroot.org/eudaimon/buuf-nestort.git
 > should appear in icon menu in settings
+
 
