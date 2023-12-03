@@ -31,8 +31,9 @@
 > large spacing, don't fill free space <br>
 > autohide all small icons <br>
 > remove everything other than app launcher and hidden icons, decrease width, right alignment<br>
-#### plank 
-> gruvbox plus icons<br>
+#### icon pack
+- no icons on desktop or dock so this is exclusively for files/ app menus
+> adiwaita icons<br>
 > other themes: <br>
 > [flight-light-icons](https://www.xfce-look.org/p/2068651) [buuf for many desktops](https://www.xfce-look.org/p/1012233) [guitar icons](https://www.xfce-look.org/p/1012396) [soft orange revised](https://www.xfce-look.org/p/1267404)
 > installing an icon pack from terminal
