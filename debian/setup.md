@@ -15,6 +15,7 @@
 >  hid options/task bar<br>
 - global theme > colors > pink
 - sun splash screen
+- breeze black pure theme for windows
 - accessibility - disabled bell and screen reader
 - config display settings - night color - sunrise and sunset
 #### video wallpaper
