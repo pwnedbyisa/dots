@@ -4,7 +4,7 @@ list of things for me to remember pretty much
 - /priority -1 - don't recieve messages
 - /omemo gen - self explanatory
 - /omemo start [other user] - starts encrypted convo
-- /omemo fingerprint
+- /omemo fingerprint [my devices + friends]
 - /omemo trust [all other fingerprints] - see all convos across clients
 - /omemo policy always
 - /omemo char # - all encrypted messages tagged w #
