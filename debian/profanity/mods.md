@@ -9,3 +9,5 @@ list of things for me to remember pretty much
 - /omemo policy always
 - /omemo char # - all encrypted messages tagged w #
 - /history on - shows prev messages
+- /roster - everything contact related
+- 
