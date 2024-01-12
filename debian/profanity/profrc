@@ -40,10 +40,9 @@ room.offline=true
 room.mention=true
 
 [alias]
-topic=/subject
-friends=/who online friends
 afk=/status set away
 unafk=/status set online
+1=/msg [redacted]
 
 [logging]
 chlog=true
