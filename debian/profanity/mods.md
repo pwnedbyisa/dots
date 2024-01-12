@@ -1,0 +1,11 @@
+list of things for me to remember pretty much
+- /carbons on - messages from other clients
+- /account set [redacted] resource set [wtv] - changing resource name
+- /priority -1 - don't recieve messages
+- /omemo gen - self explanatory
+- /omemo start [other user] - starts encrypted convo
+- /omemo fingerprint
+- /omemo trust [all other fingerprints] - see all convos across clients
+- /omemo policy always
+- /omemo char # - all encrypted messages tagged w #
+- /history on - shows prev messages
