@@ -1,7 +1,7 @@
 [ui]
 splash=true
 intype=true
-beep=false
+beep=true
 statuses.muc=all
 theme=gruvbox_transparent
 history=true
