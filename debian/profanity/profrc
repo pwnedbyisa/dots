@@ -11,7 +11,7 @@ flash=false
 vercheck=false
 statuses.console=all
 statuses.chat=all
-color.nick=true
+color.nick=false
 
 [connection]
 autoping=60
@@ -60,4 +60,4 @@ policy=manual
 autoaway.mode=away
 autoaway.check=true
 autoaway.awaytime=15
-autoaway.awaymessage=afk
+# autoaway.awaymessage=afk
