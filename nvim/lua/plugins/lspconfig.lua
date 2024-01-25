@@ -1,17 +1,16 @@
 local on_attach = require("util.lsp").on_attach
-local diagnostic_signs = require("util.lsp").diagnostic_signs
+local diagnostic_signs = require("util.icons").diagnostic_signs
 
 local config = function()
-    require("neoconf").setup({})
-    local cmp_nvim_lsp = require("cmp_nvim_lsp")
-    local lspconfig = require("lspconfig")
+        require("neoconf").setup({})
+        local cmp_nvim_lsp = require("cmp_nvim_lsp")
+        local lspconfig = require("lspconfig")
+        local capabilities = cmp_nvim_lsp.default_capabilities()
 
-    for type, icon in pairs(diagnostic_signs) do
-        local h1 = "DiagnosticSign" .. type
-        vim.fn.sign_define(h1, {text = icon, texth1 = h1, numh1 = ""})
-    end
-
-    local capabilities = cmp_nvim_lsp.default_capabilities()
+        for type, icon in pairs(diagnostic_signs) do
+                local hl = "DiagnosticSign" .. type
+                vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
+        end
 
     -- python
 
@@ -58,12 +57,12 @@ local config = function()
     })
 
 
-    local shellcheck = require("efmls-configs.linters.shellceck")
-    local flake8 = require("efmls-config.linters.flake8")
-    local black = require("efmls-config.formatters.black")
-    local shfmt = require("efmls-config.formatters.shfmt")
-    local alex = require("efmls-config.linters.alex")
-    local prettierd = require("efmls-config.formatters.prettier_d")
+    local shellcheck = require("efmls-configs.linters.shellcheck")
+    local flake8 = require("efmls-configs.linters.flake8")
+    local black = require("efmls-configs.formatters.black")
+    local shfmt = require("efmls-configs.formatters.shfmt")
+    local alex = require("efmls-configs.linters.alex")
+    local prettierd = require("efmls-configs.formatters.prettier_d")
 
 
     -- efm config
