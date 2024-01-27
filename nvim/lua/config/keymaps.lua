@@ -11,8 +11,8 @@ keymap.set("n", "<leader>tt", ":TransparentToggle<CR>")
 -- figure out later
 
 -- window splitting
-keymap.set("n", "<leader>sv", ":vsplit<CR>", opts)
-keymap.set("n", "<leader>sh", ":split<CR>", opts)
+keymap.set("n", "<leader>sv", ":vsplit<CR>")
+keymap.set("n", "<leader>sh", ":split<CR>")
 
 -- indents
 keymap.set("v", "<", "<gv")
