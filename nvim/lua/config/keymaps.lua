@@ -22,6 +22,4 @@ keymap.set("n", "<leader>sh", ":split<CR>")
 keymap.set("v", "<", "<gv")
 keymap.set("v", ">", ">gv")
 
--- comments - literally does not work but wtv
-vim.api.nvim_set_keymap("n", "<C-/>", "gtc", { noremap = false })
-vim.api.nvim_set_keymap("v", "<C-/>", "goc", { noremap = false })
+-- comments - gcc and gbc
