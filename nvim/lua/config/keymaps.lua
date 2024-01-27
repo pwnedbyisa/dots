@@ -4,6 +4,9 @@ local keymap = vim.keymap
 keymap.set("n","<leader>fo", ":NvimTreeOpen<CR>", { noremap = true, silent = true})
 keymap.set("n","<leader>fc", ":NvimTreeClose<CR>", { noremap = true, silent = true})
 
+-- transparent mode
+keymap.set("n", "<leader>tt", ":TransparentToggle<CR>")
+
 -- multi pane nav
 -- figure out later
 
