@@ -1,5 +1,8 @@
 local keymap = vim.keymap
-        
+
+-- plugins
+keymap.set("n", "<leader>lu", ":Lazy update<CR>")
+
 -- directory nav
 keymap.set("n","<leader>fo", ":NvimTreeOpen<CR>", { noremap = true, silent = true})
 keymap.set("n","<leader>fc", ":NvimTreeClose<CR>", { noremap = true, silent = true})
