@@ -1,10 +1,11 @@
 ## dots
 ### bars
-- polybar: [debian](debian/polybar) / [kali](kali/polybar)
-- waybar (not what I use + unfinished): [debian](debian/waybar)
+- polybar: [debian](debian/polybar) - [kali](kali/polybar)
+- [waybar](debian/waybar) 
 
 ### apps
-- profanity: [debian](debian/profanity)
+- [profanity](debian/profanity)
+- [neovim](nvim/)
 
-### neovim
-- config: [nvim folder](nvim/)
+### misc
+- [startpage](startpage/start.html)
