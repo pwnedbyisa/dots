@@ -1,0 +1,93 @@
+@font-face {
+	font-family: "font";
+	src: url("MARSNEVENEKSK.otf")
+}
+
+@font-face {
+	font-family: "file-font";
+	src: url("abf3.ttf");
+}
+
+html {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    color: #fcfcfc;
+    background: #151515;
+}
+
+img {
+    margin-top: 1.4em;
+    margin-right: 2em;
+    border-radius: 5px;
+    width: 340px;
+    height: 340px;
+}
+
+.top {
+    margin-top: 1.4em;
+    display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5em 6.5em;
+}
+
+h1 {
+    font-size: 5.8em;
+	font-family: font;
+    color: #c5c5c5;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #c5c5c5;
+  margin-right: 5em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+	margin-left: 1.6em;
+    font-size: 0.95em;
+    font-family: monospace;
+    line-height: 2em;
+}
+
+li:first-child {
+    margin-left: 0;
+    color: #f5bf55;
+    font-size: 2.2em;
+	font-family: file-font;
+}
+
+a {
+    color: #c5c5c5;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5bf55;
+    font-style: italic;
+}
+
+/* silver cursor */
+* {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;}
+/* End https://www.cursors-4u.com */
+
+/* bunny cursor
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1034.ani), url(https://cur.cursors-4u.net/nature/nat-11/nat1034.gif), auto !important;}
+ End https://www.cursors-4u.com */
