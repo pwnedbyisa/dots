@@ -25,7 +25,7 @@ dashboard.section.header.val = header
 -- Menu
 dashboard.section.buttons.val = {
   dashboard.button('e', '  New file', ':ene <BAR> startinsert<CR>'),
-  dashboard.button('SPC f f', '  Find file', ':NvimTreeOpen<CR>'),
+  dashboard.button('SPC f f', '  Find file', ':Telescope find_files<CR>'),
   dashboard.button('SPC f g', '  Grep files', ':Telescope grep_string<CR>'),
   dashboard.button('SPC l u', '  Update plugins', ':Lazy update<CR>'),
   dashboard.button('q', '  Quit', ':qa<CR>'),
