@@ -8,4 +8,4 @@
 - [neovim](nvim/)
 
 ### misc
-- [startpage](startpage/start.html)
+- [startpage](startpage/start.html) - [actual site](https://pwnedbyisa.github.io)
