@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>~/startpage</title>
+  <link rel="stylesheet" type="text/css" href="start.css">
+  <base target="_blank" rel="noopener noreferrer">
+</head>
+
+<body>
+
+  <div class="image">
+    <img alt="img alt :>" src="spimg1.jpg">
+  </div>
+
+  <div class="top">
+    <h1>xv1></h1>
+    <h2 id="date"></h2>
+  </div>
+  
+  <div class="grid">
+    <ul>
+	  <li>~/general</li>
+      <li><a href="https://youtube.com/">youtube</a></li>
+      <li><a href="https://pinterest.com/">pinterest</a></li>
+      <li><a href="https://tetr.io">tetr.io</a></li>
+      <li><a href="https://twitch.tv/">twitch</a></li>
+    </ul>
+    <ul>
+      <li>~/hacking</li>
+      <li><a href="https://tryhackme.com/">tryhackme</a></li>
+      <li><a href="https://github.com/pwnedbyisa/writeups">writeups</a></li>
+      <li><a href="https://play.picoctf.org">picoctf</a></li>
+      <li><a href="obsidian.exe">obsidian</a></li>
+    </ul>
+    <ul>
+      <li>~/school</li>
+      <li><a href="https://app.mystudylife.com">planner</a></li>
+      <li><a href="https://classroom.google.com/u/1/">classroom</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLGjeFvqA5JnNy6UIlm7GGtkzpbb0S1FHi">study</a></li>
+      <li><a href="https://codehs.com">codehs</a></li>
+    </ul>
+    <ul>
+      <li>~/projects</li>
+      <li><a href="https://github.com/pwnedbyisa/dcd">dcd</a></li>
+      <li><a href="https://github.com/pwnedbyisa/dots">dotfiles</a></li>
+      <li><a href="https://github.com/pwnedbyisa/terminal-calc">calc</a></li>
+      <li><a href="https://github.com/pwnedbyisa/portfolio">portfolio</a></li>
+    </ul>
+  </div>
+  
+  <script>
+    function showTime() {
+      const date = new Date();
+
+      let today = date.toLocaleString("en", { weekday: "long" });
+      let hour = date.toLocaleString("pl", { hour: "2-digit" });
+      let minute = date.toLocaleString("en", { minute: "2-digit" });
+      let second = date.toLocaleString("en", { second: "2-digit" });
+      let day = date.toLocaleString("en", { day: "2-digit" });
+      let month = date.toLocaleString("en", { month: "2-digit" });
+      let year = date.toLocaleString("en", { year: "numeric" });
+
+      minute = addZero(minute);
+      second = addZero(second);
+
+      document.getElementById(
+          "date"
+      ).innerHTML = `${today}, ${hour}:${minute}:${second} | ${year}/${month}/${day}`;
+      setTimeout(showTime, 0);
+    }
+
+    function addZero(i) {
+        if (i.length < 2) i = "0" + i;
+        return i;
+    }
+
+    showTime();
+  </script>
+</body>
