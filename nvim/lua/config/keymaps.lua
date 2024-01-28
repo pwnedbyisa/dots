@@ -26,4 +26,9 @@ keymap.set("v", ">", ">gv", {silent = true})
 keymap.set("n", "<leader>u", ":undo<CR>", {silent = true}) 
 keymap.set("n", "<leader>r", ":redo<CR>", {silent = true})
 
+-- quit
+keymap.set("n", "<leader>q", ":q<CR>", {silent = true})
+keymap.set("n", "<leader>wq", ":wq<CR>", {silent = true})
+keymap.set("n", "<leader qf", ":q!<CR>", {silent = true})
+
 -- comments - gcc and gbc
