@@ -1,11 +1,10 @@
 ## dots
 ### bars
-- polybar: [debian](debian/polybar) - [kali](kali/polybar)
-- [waybar](debian/waybar) 
+debian >> [polybar](polybar-debian/) <br>
+kali >> [polybar](polybar-kali/) <br>
+unfinished >> [waybar](waybar/) <br>
 
-### apps
-- [profanity](debian/profanity)
-- [neovim](nvim/)
-
-### misc
-- [startpage](startpage/start.html) - [actual site](https://pwnedbyisa.github.io)
+### apps/ managers
+editor >> [neovim](nvim/) <br>
+xmpp client >> [profanity](profanity/) <br>
+launcher >> [rofi](rofi/) <br>
