@@ -1,0 +1,80 @@
+configuration {
+    display-drun: "app >>";
+    display-window: "win >>";
+    drun-display-format: "run {name}";
+    modi: "window,run,drun";
+}
+
+@theme "/dev/null"
+
+* {
+    bg: #07080670;
+    bg-selected: #33443170;
+
+    fg: #cdf4ce;
+    fg-alt: #899c7f;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    width: 60%;
+    background-color: @bg;
+    border-radius: 4px;
+}
+
+element {
+    padding: 8 12;
+    background-color: transparent;
+    text-color: @fg-alt;
+}
+
+element selected {
+    text-color: @fg;
+    background-color: @bg-selected;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    size: 14;
+    padding: 0 10 0 0;
+    background-color: transparent;
+}
+
+entry {
+    padding: 8;
+    background-color: @bg;
+    text-color: @fg;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg;
+}
+
+listview {
+    background-color: @bg;
+    columns: 1;
+    lines: 8;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    background-color: @bg;
+}
+
+prompt {
+    enable: true;
+    padding: 8 0 0 8;
+    background-color: @bg;
+    text-color: @fg;
+}
+
