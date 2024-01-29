@@ -1,5 +1,6 @@
 // to do
 // add application launcher, firefox, workspaces, open windows
+// jk I don't use waybar
 
 {
     "layer": "top",
