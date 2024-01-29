@@ -44,4 +44,6 @@ end
 
 dashboard.section.footer.val = footer()
 
-alpha.setup(dashboard.config)
+return {
+    alpha.setup(dashboard.config)
+}
