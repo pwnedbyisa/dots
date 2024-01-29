@@ -41,5 +41,7 @@
 > cd /usr/share/icons/
 > sudo git clone https://git.disroot.org/eudaimon/buuf-nestort.git
 > should appear in icon menu in settings
+#### extra
+- added rofi, profanity, dino, etc, etc
 
 
