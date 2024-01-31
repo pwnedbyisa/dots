@@ -4,7 +4,7 @@ return {
     opts = {
         cmdline = {
             enabled = true,
-            view = "cmdline",
+            view = "cmdline", -- puts cmdline at the bottom
         },
     },
     dependencies = {
