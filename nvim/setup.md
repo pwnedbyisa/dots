@@ -17,13 +17,5 @@ create config file
 ```
 mkdir ~/.config/nvim
 ```
-cd into the directory and create init file - mine is based off the file from kickstart.nvim
-```
-nvim init.lua
-```
-run nvim to install packages automatically
-```
-nvim
-```
-add other packages to the init file as needed following their docs
+
 
