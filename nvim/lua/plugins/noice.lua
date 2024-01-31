@@ -1,7 +1,12 @@
 return {
     "folke/noice.nvim",
     event = "VeryLazy",
-    opts = {},
+    opts = {
+        cmdline = {
+            enabled = true,
+            view = "cmdline",
+        },
+    },
     dependencies = {
         "MunifTanjim/nui.nvim",
     },
