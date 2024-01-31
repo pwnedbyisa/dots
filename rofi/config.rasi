@@ -3,6 +3,7 @@ configuration {
     display-window: "win >>";
     drun-display-format: "run {name}";
     modi: "window,run,drun";
+    font: "hack 10";
 }
 
 @theme "/dev/null"
