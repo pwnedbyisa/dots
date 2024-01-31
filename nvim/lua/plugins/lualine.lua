@@ -1,5 +1,5 @@
 local config = function()
-    local theme = require("lualine.themes.gruvbox")
+    local theme = require("lualine.themes.auto")
     theme.normal.c.bg = nil
 
     require('lualine').setup {
@@ -8,12 +8,9 @@ local config = function()
             globalstatus = true,
         },
         sections = {
-            lualine_a = {
-                {
-                    'buffers',
-                }
-            },
-        }
+            lualine_a = {'mode'},
+            lualine_b = {'buffers'},
+        },
     }
 end
 
