@@ -7,8 +7,8 @@ local config = function()
         },
         float = {
             -- Padding around the floating window
-            padding = 2,
-            max_width = 0,
+            padding = 20,
+            max_width = 70,
             max_height = 0,
             border = "rounded",
             win_options = {
