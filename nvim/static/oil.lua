@@ -1,3 +1,4 @@
+-- not using atm
 local config = function()
     require('oil').setup({
         columns = {
