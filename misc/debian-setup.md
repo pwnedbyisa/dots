@@ -43,5 +43,11 @@
 > should appear in icon menu in settings
 #### extra
 - added rofi, profanity, dino, etc, etc
+#### kwin
+- mv kdeglobals > kdeglobals.old
+- add frame and inactiveFrame borders
+- removing titlebar vvv
+- windows rules > new > regex > .* >  add property > appearance + fixes > no titlebar and frame > force > yes
+- installing bismuth
 
 
