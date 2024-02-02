@@ -43,17 +43,21 @@
 > should appear in icon menu in settings
 #### extra
 - added rofi, profanity, dino, etc, etc
-#### kwin
+#### kwin (not using)
 - mv kdeglobals > kdeglobals.old
 - add frame and inactiveFrame borders
 - removing titlebar vvv
 - windows rules > new > regex > .* >  add property > appearance + fixes > no titlebar and frame > force > yes
-- installing bismuth
+#### bismuth (using)
 ```shell
 echo "deb http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list > /dev/null
 wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
 sudo apt update && sudo apt install kwin-bismuth
 ```
-
+- all gaps 4px
+- get rid of overlap vvv
+- win rules > new > unimportant > normal windows > add prop > min size > force 0x0
+- fix dolphin sizing
+- win rules > new > exact match > dolphin > noraml windows > add prop > ignore geom > force > yes
 
 
