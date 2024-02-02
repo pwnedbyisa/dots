@@ -49,5 +49,11 @@
 - removing titlebar vvv
 - windows rules > new > regex > .* >  add property > appearance + fixes > no titlebar and frame > force > yes
 - installing bismuth
+```shell
+echo "deb http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list > /dev/null
+wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
+sudo apt update && sudo apt install kwin-bismuth
+```
+
 
 
