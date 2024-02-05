@@ -8,3 +8,7 @@ unfinished >> [waybar](waybar/) <br>
 editor >> [neovim](nvim/) <br>
 xmpp client >> [profanity](profanity/) <br>
 launcher >> [rofi](rofi/) <br>
+
+### desktop
+wm/ tiling >> [bismuth](bismuth/) <br>
+
