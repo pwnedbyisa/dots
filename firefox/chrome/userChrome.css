@@ -20,3 +20,7 @@
 /* Hidden state: Fix z-index of active pinned tabs */
 #main-window[titlepreface*="​"] #tabbrowser-tabs { z-index: 0 !important; }
 
+
+/* SEARCHBAR */
+:root{ --toolbar-field-focus-border-color: transparent !important; }
+
