@@ -8,6 +8,10 @@
   display: none !important;
 }
 
+#sidebar-box {
+  max-width: 258px !important;
+}
+
 /* -- native tab toggle -- */
 
 #main-window #titlebar {
