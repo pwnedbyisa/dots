@@ -4,6 +4,12 @@
   display: none;
 }
 
+#sidebar-splitter {
+  display: none !important;
+}
+
+/* -- native tab toggle -- */
+
 #main-window #titlebar {
   overflow: hidden;
   transition: height 0.1s 0.1s !important;
