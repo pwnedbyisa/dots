@@ -2,7 +2,10 @@
    about:profiles -> chrome/userChrome.css
    about:profiles -> restart */
 
-/* SIDEBERY */
+
+/* ===== SIDEBERY ===== */
+
+/* -- general -- */
 
 #sidebar-header {
   display: none;
@@ -21,20 +24,78 @@
 #main-window #titlebar {
   overflow: hidden;
   transition: height 0.1s 0.1s !important;
+  
 }
 
-/* Default state: Set initial height to enable animation */
+/* default - set initial height */
 #main-window #titlebar { height: 4em !important; }
 #main-window[uidensity="touch"] #titlebar { height: 3.35em !important; }
 #main-window[uidensity="compact"] #titlebar { height: 2.7em !important; }
 
-/* Hidden state: Hide native tabs strip - preface is zero width space */
-#main-window[titlepreface*="​"] #titlebar { height: 0 !important; }
+/* adjusting padding */
+#main-window[titlepreface*="​"] #appcontent browser { padding-left: 0 !important; }
+#main-window:not([titlepreface*="​"]) #appcontent browser { padding-left: 4px !important; }
 
-/* Hidden state: Fix z-index of active pinned tabs */
+/* hidden - hide native tabs - preface is zero width space */
+#main-window[titlepreface*="​"] #titlebar { height: 0 !important; } 
+
+/* hidden - fix active pinned tabs z-axis */
 #main-window[titlepreface*="​"] #tabbrowser-tabs { z-index: 0 !important; }
 
 
-/* SEARCHBAR */
+/* ===== SEARCHBAR ===== */
+
+/* -- changing outline -- */
 :root{ --toolbar-field-focus-border-color: transparent !important; }
+
+
+/* ===== MAIN WINDOW ===== */
+
+/* -- rounded browser window -- */
+#appcontent
+  > #tabbrowser-tabbox
+  > #tabbrowser-tabpanels
+  > .deck-selected
+  > .browserContainer
+  > .browserStack
+  > browser {
+  border-radius: 12px !important;
+  margin-bottom: 4px !important;
+  margin-right: 4px !important;
+}
+
+.browserContainer {
+  background-color: #000400ff !important;
+  background-position: right top !important;
+}
+
+[titlepreface*="ㅤ"] #appcontent
+> #tabbrowser-tabbox
+> #tabbrowser-tabpanels
+> .deck-selected
+> .browserContainer
+> .browserStack
+> browser {
+  margin-left: 16px !important;
+}
+
+[inFullscreen] #appcontent
+> #tabbrowser-tabbox
+> #tabbrowser-tabpanels
+> .deck-selected
+> .browserContainer
+> .browserStack
+> browser {
+  margin-left: 34px !important;
+}
+
+[inFullscreen][titlepreface*="ㅤ"] #appcontent
+> #tabbrowser-tabbox
+> #tabbrowser-tabpanels
+> .deck-selected
+> .browserContainer
+> .browserStack
+> browser {
+  margin-left: 74px !important;
+}
 
