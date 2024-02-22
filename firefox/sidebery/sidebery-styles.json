@@ -19,10 +19,10 @@
 #root.root {--frame-el-overlay-hover-bg: #363e20ff;}
 #root.root {--frame-fg: #d2ffd2ff;}
 
-#root.root {--ctx-menu-font: 0.875rem monospace;}
-#root.root {--bookmarks-bookmark-font: 0.9375rem monospace;}
-#root.root {--bookmarks-folder-font: 0.9375rem monospace;}
-#root.root {--tabs-count-font: 0.5625rem monospace;}
+#root.root {--ctx-menu-font: 0.875rem ;} /*no fonts rn*/
+#root.root {--bookmarks-bookmark-font: 0.9375rem ;}
+#root.root {--bookmarks-folder-font: 0.9375rem ;}
+#root.root {--tabs-count-font: 0.5625rem ;}
 #root.root {--tabs-lvl-opacity: 0.16;}
 #root.root {--frame-el-overlay-selected-border: #c0ff82ff;}
 #root.root {--toolbar-el-overlay-selected-border: #ceff9dff;}
@@ -31,7 +31,7 @@
 #root.root {--general-border-radius: 16px;}
 #root.root {--search-icon-width: 28px;}
 #root.root {--tabs-indent: 10px;}
-#root.root {--tabs-font: 0.9375rem monospace;}
+#root.root {--tabs-font: 0.9375rem ;}
 /* ============ Define all variable ============ */
 #root.root {
 
