@@ -32,7 +32,7 @@
 #main-window[uidensity="compact"] #titlebar { height: 2.7em !important; }
 
 /* adjusting padding */
-#main-window[titlepreface*="​"] #appcontent browser { padding-left: 0 !important; }
+/*#main-window[titlepreface*="​"] #appcontent browser { padding-left: 0 !important; } -- not needed unless I set padding elsewhere*/
 #main-window:not([titlepreface*="​"]) #appcontent browser { padding-left: 4px !important; }
 
 /* hidden - fix active pinned tabs z-axis */
