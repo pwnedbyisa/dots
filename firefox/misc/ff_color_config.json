@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "green + black",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/0.jpg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "center bottom"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgba(15, 15, 15, 0.2)",
+      "toolbar_text": "rgb(188, 225, 159)",
+      "frame": "rgb(0, 0, 0)",
+      "tab_background_text": "rgb(82, 142, 38)",
+      "toolbar_field": "rgba(9, 11, 7, 0.05)",
+      "toolbar_field_text": "rgb(188, 225, 159)",
+      "tab_line": "rgba(248, 112, 140, 0)",
+      "popup": "rgba(0, 0, 0, 0.8)",
+      "popup_text": "rgb(188, 225, 159)",
+      "ntp_background": "rgb(7, 8, 6)",
+      "tab_loading": "rgba(248, 112, 140, 0)"
+    }
+  }
+}
