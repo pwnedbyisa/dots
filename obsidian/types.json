@@ -1,0 +1,12 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "study": "number",
+    "review": "checkbox",
+    "reflect": "checkbox",
+    "create": "checkbox",
+    "exercise": "number"
+  }
+}

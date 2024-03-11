@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:Organization/Assets/Daily Template.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ]
+}
