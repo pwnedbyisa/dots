@@ -1,0 +1,12 @@
+{
+  "soundscape": "coffeeshop",
+  "volume": 25,
+  "autoplay": false,
+  "scrollSongTitle": false,
+  "customSoundscapes": [],
+  "myMusicIndex": [],
+  "myMusicFolderPath": "",
+  "reindexFrequency": "5",
+  "myMusicShuffle": false,
+  "currentTrackIndex": 0
+}
