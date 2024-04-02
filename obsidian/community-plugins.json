@@ -10,5 +10,7 @@
   "homepage",
   "nldates-obsidian",
   "obsidian-plugin-update-tracker",
-  "better-word-count"
+  "better-word-count",
+  "obsidian-advanced-slides",
+  "obsidian-custom-frames"
 ]

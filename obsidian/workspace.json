@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "be8f46008f28b1f4",
+        "id": "6829c4415928b175",
         "type": "tabs",
         "children": [
           {
-            "id": "650e0e715f1aac33",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "274fc67acb79994e",
+            "id": "d608cede723b201b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "240311.07.md",
-                "mode": "source",
+                "file": "scratch space/00.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,25 +64,13 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "d3353b5b3a1f1dea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/salut!.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "204a6d3691df9fe4",
@@ -107,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "240311.07.md",
+                "file": "Work/L'espace de Travaille.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "240311.07.md",
+                "file": "Work/L'espace de Travaille.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,11 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "240311.07.md"
+                "file": "Work/L'espace de Travaille.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,60 +142,63 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "274fc67acb79994e",
+  "active": "ea5ffb9818c835a6",
   "lastOpenFiles": [
     "scratch space/00.md",
-    "240311.07.md",
+    "Work/L'espace de Travaille.md",
+    "Home/reflets.md",
     "Home/une arme académique.md",
+    "Home/L'espace d'Isabelle.md",
+    "Home/liste de contrôle.md",
     "Dashboard.md",
-    "Daily/2024-03-11.md",
-    "scratch space/S05/230619.05.md",
-    "scratch space/S04/240301.04.md",
-    "scratch space/S03/240302.03.md",
-    "scratch space/S03/240310.03a.md",
-    "scratch space/S02/240301.02.md",
-    "scratch space/S01/240310.01b.md",
-    "scratch space/S01/240301.01.md",
-    "scratch space/S01/240301.01a.md",
-    "240311.05c1.md",
-    "scratch space/S06/230619.06a5.md",
-    "scratch space/S06/230619.06.md",
-    "scratch space/S06/230619.06a1.md",
-    "Home/salut!.md",
-    "scratch space/S06",
-    "scratch space/S05",
-    "scratch space/S04",
-    "scratch space/S03",
-    "scratch space/S02",
-    "scratch space/S01",
-    "Daily/Journals.md",
-    "scratch space/S06/230618.06a4.md",
-    "scratch space/S06/230619.06a.md",
-    "scratch space/S06/230831.06a4b.md",
-    "scratch space/S06/230831.06a4a.md",
-    "scratch space/S06/230619.06a2.md",
-    "scratch space/S06/230619.06a3.md",
-    "scratch space/Neural Networks/0. Neural Network Nav.md",
-    "scratch space/Neural Networks",
-    "scratch space/Machine Learning",
+    "scratch space/01/240328.01a1 - Charge and Benediction.md",
+    "scratch space/01/240301.01a - Misunderstandings + Mutual Forbearance.md",
+    "scratch space/01/240301.01 - Intellectual Truths + Confirmation Bias.md",
+    "scratch space/01/240310.01b - Recognition + Paradigms.md",
+    "scratch space/09/240401.09c2b1a - Products of the Victorian Era.md",
+    "scratch space/09/240401.09c2b1 - Victorian Era.md",
+    "scratch space/09/240401.09c2b - Hemingway + Bell Tolls.md",
+    "scratch space/09/240401.09c2 - Notes on the Romantic Era.md",
+    "scratch space/09/240401.09c1 - Notes on Keats.md",
+    "scratch space/09/240401.09c2a - William Blake.md",
+    "scratch space/09/240401.09e1 - April Is the Kindest Month.md",
+    "scratch space/09/240401.09e - The Waste Land.md",
+    "scratch space/09/240401.09 - Favorite Poems.md",
+    "scratch space/09/240401.09c2a1 - Good + Bad + Being Human.md",
+    "scratch space/09/240401.09d - Howl.md",
+    "Daily/2024-04-01.md",
+    "scratch space/09",
+    "scratch space/09/240401.09c - When I Have Fears That I May Cease To Be.md",
+    "scratch space/09/240401.09b - Acquainted With the Night.md",
+    "scratch space/09/240401.09a - Rage Against the Dying of the Light.md",
+    "scratch space/Unallocated/b",
+    "Organization/Assets/Pasted image 20240331165635.png",
+    "scratch space/Unallocated/a",
+    "scratch space/Unallocated",
+    "2024-2025/Self Learning/French/Vocab",
+    "2024-2025/Self Learning/French/Tenses",
+    "2024-2025/Self Learning/French",
+    "2024-2025/Self Learning",
     "Organization/Assets/sunday_kind_of_love.mp3",
-    "Organization/Assets/telephone_elelctrolightz_remix.mp3",
+    "writeups/hackthebox/reversing",
+    "Organization/Assets/Pasted image 20240319021654.png",
+    "Untitled.canvas",
     "Organization/Assets/d52d053383c2039e705aecd11a7b8d2f.jpg",
     "Organization/Assets/930e982393ca683de8396e107cee9e22.jpg",
     "Organization/Assets/11b3f49c9439c48dc434a1420e85aed3.jpg",
-    "Screenshot 2024-03-05 213746.png",
-    "Screenshot 2024-03-05 213728.png",
-    "Screenshot 2024-03-05 213645.png",
-    "Screenshot 2024-03-05 213634.png",
-    "tea-stir.gif",
-    "anime-writing-gif.gif"
+    "Organization/Assets/Screenshot 2024-03-05 213746.png",
+    "Organization/Assets/Screenshot 2024-03-05 213728.png",
+    "Organization/Assets/Screenshot 2024-03-05 213645.png",
+    "Organization/Assets/Screenshot 2024-03-05 213634.png",
+    "tea-stir.gif"
   ]
 }
