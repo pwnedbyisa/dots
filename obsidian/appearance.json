@@ -4,6 +4,7 @@
   "theme": "system",
   "interfaceFontFamily": "",
   "enabledCssSnippets": [
-    "customWidth"
+    "customWidth",
+    "noScrollbar"
   ]
 }
