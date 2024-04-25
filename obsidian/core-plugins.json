@@ -8,7 +8,6 @@
   "tag-pane",
   "page-preview",
   "daily-notes",
-  "templates",
   "note-composer",
   "command-palette",
   "editor-status",
@@ -16,5 +15,6 @@
   "zk-prefixer",
   "outline",
   "slides",
+  "workspaces",
   "file-recovery"
 ]
