@@ -7,7 +7,6 @@
   "buttons",
   "obsidian-audio-player",
   "heatmap-calendar",
-  "homepage",
   "nldates-obsidian",
   "obsidian-plugin-update-tracker",
   "better-word-count",
@@ -17,5 +16,6 @@
   "obsidian-statusbar-pomo",
   "find-unlinked-files",
   "3d-graph",
-  "obsidian-desmos"
+  "obsidian-desmos",
+  "calendar"
 ]
