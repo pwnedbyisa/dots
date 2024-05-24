@@ -1,6 +1,6 @@
 if status is-interactive
     # theme
-    fish_config theme choose 'Mono Lace'
+    fish_config theme choose 'Tomorrow Night Bright'
     
     # full directories instead of first letter
     set fish_prompt_pwd_dir_length 0
