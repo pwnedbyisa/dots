@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "showInlineTitle": false,
   "showLineNumber": false,
-  "attachmentFolderPath": "Organization/Assets"
+  "attachmentFolderPath": "Organization/Assets",
+  "showUnsupportedFiles": true
 }
