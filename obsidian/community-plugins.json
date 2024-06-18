@@ -8,14 +8,15 @@
   "obsidian-audio-player",
   "heatmap-calendar",
   "nldates-obsidian",
-  "obsidian-plugin-update-tracker",
-  "better-word-count",
   "surfing",
-  "podnotes",
-  "typing-speed",
   "obsidian-statusbar-pomo",
   "find-unlinked-files",
   "3d-graph",
   "obsidian-desmos",
-  "calendar"
+  "graph-analysis",
+  "mathpad",
+  "better-word-count",
+  "obsidian-plugin-update-tracker",
+  "typing-speed",
+  "obsidian-audio-notes"
 ]
