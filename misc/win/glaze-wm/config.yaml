@@ -51,6 +51,8 @@ bar:
   component_separator:
     label: "   |   "
   components_left:
+    - type: "image"
+      source: "C:\\Users\\isabe\\.glaze-wm\\win.png"
     - type: "workspaces"
       focused_workspace_background: "#ffffff33"
       displayed_workspace_background: "#00000033"
@@ -60,6 +62,11 @@ bar:
     - type: "clock"
       time_formatting: "hh:mm tt  ddd MMM d"
   components_right:
+    - type: "music"
+      label_not_playing: ""
+      label_paused: "♫ {song_title} - {artist_name}"
+      label_playing: "♫ {song_title} - {artist_name}  ▶"
+      max_title_length: 20
     - type: "memory"
       label: "RAM: {percent_usage}%"
       # How often this counter is refreshed.
@@ -72,12 +79,6 @@ bar:
       label_wifi_strength_50: "WiFi: 50%"
       label_wifi_strength_75: "WiFi: 75%"
       label_wifi_strength_100: "WiFi: 100%"
-    - type: "music"
-      label_not_playing: ""
-      label_paused: "♫ {song_title} - {artist_name}"
-      label_playing: "♫ {song_title} - {artist_name}  ▶"
-      max_title_length: 20
-      max_artist_length: 20
 
 workspaces:
   - name: "1"
@@ -109,6 +110,11 @@ window_rules:
   # Some applications (eg. Steam) have borders that extend past the normal border size.
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steam"
+
+  # more ignore/ floating rules
+  - command: "set floating"
+    match_title: "Tor Browser"
+
 
 binding_modes:
   - name: "resize"
